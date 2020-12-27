@@ -16,7 +16,7 @@ class PMEchoTest {
                 .post("/post")
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("some fail data"))
+                .body("data", equalTo("some data"))
         ;
     }
 }
